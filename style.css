@@ -1,3 +1,4 @@
+/*styling the game box*/
 .game{
     margin:auto;
     width: 60rem;
@@ -7,22 +8,27 @@
     color: aliceblue;
     font-family: 'Jost', sans-serif;
 }
+/*styling the title*/
 h1{
     text-align:center;
     margin: 3rem auto;
     padding: 4rem;
 }
+/*styling "indicator"*/
 h3{
     text-align:center;
 }
 #indicator{
     height: 60px;
 }
+
+/*styling the guess div to align all items in it to be centered*/
 .guess{
     margin: 80px auto;
     width: 20%;
     text-align:center;
 }
+/*styling the new game button*/
 #reset{
     float:right;
     margin: 200px 90px 0px;
@@ -49,7 +55,7 @@ button{
 button:active{
     background: lightgray;
 }
-/*styling the game indicator*/
+/*styling the indicator with new classes*/
 .correct{
     color:greenyellow;
     font-size: 25px;

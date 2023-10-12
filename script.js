@@ -1,3 +1,4 @@
+//takes html elements and assigns them to const variables
 const indicator = document.getElementById("indicator");
 const userNum = document.getElementById("userNum");
 const submit = document.getElementById("submit");
@@ -11,14 +12,20 @@ function getRandomInt(){
 //compares the input integer with the value the user is trying to guess and returns a message to indicate right, lower, higher
 function compareNum(){
     let actualGuess = userNum.value;
+
+    //for if the guess is too high
     if(actualGuess > goalNum){
         indicator.innerText = "Incorrect. Guess Lower!";
         indicator.classList.add("incorrect");
     }
+
+    //for if the guess is too low
     else if(actualGuess< goalNum){
         indicator.innerText = "Incorrect. Guess Higher!";
         indicator.classList.add("incorrect");
     }
+
+    //for if the guess is correct
     else{
         indicator.innerText = "Correct! The number is " + goalNum + "!";
         indicator.classList.remove("incorrect");
