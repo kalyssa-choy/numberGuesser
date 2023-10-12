@@ -1,0 +1,61 @@
+.game{
+    margin:auto;
+    width: 60rem;
+    height: 60rem;
+    border-radius: 10px;
+    background: cornflowerblue;
+    color: aliceblue;
+    font-family: 'Jost', sans-serif;
+}
+h1{
+    text-align:center;
+    margin: 3rem auto;
+    padding: 4rem;
+}
+h3{
+    text-align:center;
+}
+#indicator{
+    height: 60px;
+}
+.guess{
+    margin: 80px auto;
+    width: 20%;
+    text-align:center;
+}
+#reset{
+    float:right;
+    margin: 200px 90px 0px;
+}
+/*Styling the user input box*/
+#userNum{
+    width: 50px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    border: none;
+    text-align: center;
+}
+button{
+    border-radius:10px;
+    border: none;
+    padding:10px;
+    width: 100px;
+    height: 40px;
+    margin: 2rem auto;
+    background: whitesmoke;
+    color: cornflowerblue;
+}
+button:active{
+    background: lightgray;
+}
+/*styling the game indicator*/
+.correct{
+    color:greenyellow;
+    font-size: 25px;
+
+}
+.incorrect{
+    color:rgb(191, 0, 0);
+    font-size: 25px;
+}
